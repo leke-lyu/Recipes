@@ -21,7 +21,11 @@ A detailed documentation of my scripts and customized data
 
 ### Description
 
+This script used RSQLite to build a local database indexing the metadata of all SARS-CoV-2 samples in GISAID.
+
 ### Usage
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
