@@ -23,8 +23,6 @@ A detailed documentation of my scripts and customized data
       </ul>
     </li>
     <li><a href="#task-4-phylodynamic-modeling-of-co-circulating-respiratory-pathogens">Task 4: Phylodynamic modeling of co-circulating respiratory pathogens</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -52,10 +50,4 @@ A detailed documentation of my scripts and customized data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Contact
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Acknowledgments
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
