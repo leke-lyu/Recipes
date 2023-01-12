@@ -17,7 +17,7 @@ A detailed documentation of my scripts and customized data
   </ol>
 </details>
 
-## buildGISAIDdatabase.R
+## [buildGISAIDdatabase.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/buildGISAIDdatabase.R)
 
 ### Description
 
