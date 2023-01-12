@@ -6,12 +6,12 @@ A detailed documentation of my scripts and customized data
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#task-1-develop-an-analytical-pipeline-for-sars-cov-2-samples-to-rapidly-share-molecular-epidemiology-inferences">Task 1: Develop an analytical pipeline for SARS-CoV-2 samples to rapidly share molecular epidemiology inferences</a>
+      <a href="#task-1-develop-an-analytical-pipeline-for-sars-cov-2-samples-to-rapidly-share-molecular-epidemiology-inferences">buildGISAIDdatabase.R</a>
       <ul>
-        <li><a href="#sequencing">Sequencing</a></li>
+        <li><a href="#description">Description</a></li>
       </ul>
       <ul>
-        <li><a href="#project-specific-instance-of-nextstrain">Project specific instance of NextStrain</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
     <li><a href="#task-2-integrate-phylogenetic-and-epidemic-network-modeling-to-identify-transmission-clusters">Task 2: Integrate phylogenetic and epidemic network modeling to identify transmission clusters</a></li>
@@ -26,11 +26,11 @@ A detailed documentation of my scripts and customized data
   </ol>
 </details>
 
-## Task 1: Develop an analytical pipeline for SARS-CoV-2 samples to rapidly share molecular epidemiology inferences
+## buildGISAIDdatabase.R
 
-### Sequencing
+### Description
 
-### Project specific instance of NextStrain
+### Usage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
