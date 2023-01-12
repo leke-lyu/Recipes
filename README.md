@@ -25,7 +25,9 @@ This script used RSQLite to build a local database indexing the metadata of all 
 
 ### Usage
 
-
+```shell
+Rscript buildGISAIDdatabase.R metadataFolder
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
