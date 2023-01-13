@@ -14,6 +14,15 @@ A detailed documentation of my scripts and customized data
         <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
+      <ul>
+        <li><a href="#description">Description</a></li>
+      </ul>
+      <ul>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
