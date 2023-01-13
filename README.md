@@ -17,10 +17,10 @@ A detailed documentation of my scripts and customized data
     <li>
       <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
       <ul>
-        <li><a href="#description">Description</a></li>
+        <li><a href="#description-1">Description</a></li>
       </ul>
       <ul>
-        <li><a href="#usage">Usage</a></li>
+        <li><a href="#usage-1">Usage</a></li>
       </ul>
     </li>
   </ol>
