@@ -49,7 +49,7 @@ This script used RSQLite to build a local database indexing the metadata of all 
 ### Usage
 
 ```shell
-Rscript buildGISAIDdatabase.R metadataFolder
+Rscript /Users/lekelyu/Desktop/generateNextStrainSamples.R /Users/lekelyu/Library/CloudStorage/OneDrive-UniversityofGeorgia/vendor/Texas_cumulative.csv /Users/lekelyu/Library/CloudStorage/OneDrive-UniversityofGeorgia/GISAID/meta.db /Users/lekelyu/Library/CloudStorage/OneDrive-UniversityofGeorgia/nextstrain 1000 400 100 100 100 100 100 100
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
