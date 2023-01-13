@@ -31,5 +31,18 @@ Rscript buildGISAIDdatabase.R metadataFolder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## [generateNextStrainSamples.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/buildGISAIDdatabase.R)
+
+### Description
+
+This script used RSQLite to build a local database indexing the metadata of all SARS-CoV-2 samples in GISAID. To use this script, the user needs to indicate the path to the `metadataFolder`. The `meta.db` is the expected result.
+
+### Usage
+
+```shell
+Rscript buildGISAIDdatabase.R metadataFolder
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
