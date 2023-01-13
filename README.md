@@ -15,12 +15,21 @@ A detailed documentation of my scripts and customized data
       </ul>
     </li>
     <li>
-      <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
+      <a href="#editmetaofnextstrainsamplesr">editMetaOfNextStrainSamples.R</a>
       <ul>
         <li><a href="#description-1">Description</a></li>
       </ul>
       <ul>
         <li><a href="#usage-1">Usage</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
+      <ul>
+        <li><a href="#description-2">Description</a></li>
+      </ul>
+      <ul>
+        <li><a href="#usage-2">Usage</a></li>
       </ul>
     </li>
   </ol>
@@ -36,6 +45,20 @@ This script used RSQLite to build a local database indexing the metadata of all 
 
 ```shell
 Rscript buildGISAIDdatabase.R metadataFolder
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## [editMetaOfNextStrainSamples.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/editMetaOfNextStrainSamples.R)
+
+### Description
+
+
+
+### Usage
+
+```shell
+Rscript editMetaOfNextStrainSamples.R pathToTexas_cumulative.csv pathToNextStrainMeta
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
