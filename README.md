@@ -40,7 +40,7 @@ Rscript buildGISAIDdatabase.R metadataFolder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## [generateNextStrainSamples.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/buildGISAIDdatabase.R)
+## [generateNextStrainSamples.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/generateNextStrainSamples.R)
 
 ### Description
 
