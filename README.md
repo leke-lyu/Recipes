@@ -30,7 +30,7 @@ A detailed documentation of my scripts and customized data
 
 ### Description
 
-This script used RSQLite to build a local database indexing the metadata of all SARS-CoV-2 samples in GISAID. To use this script, the user needs to indicate the path to the `metadataFolder`. The `meta.db` is the expected result.
+This script used RSQLite to build a local database indexing the metadata of all SARS-CoV-2 samples in [GISAID](https://gisaid.org). To use this script, the user needs to indicate the path to the `metadataFolder`. The `meta.db` is the expected result.
 
 ### Usage
 
@@ -44,7 +44,7 @@ Rscript buildGISAIDdatabase.R metadataFolder
 
 ### Description
 
-This script was designed to generate sample list. The `seq.list` is a guide file to download samples from [GISAID](https://gisaid.org).To run this script, 11 argument must be supplied.
+This script was designed to generate a sample list. The `seq.list` is a guide file to download samples from [GISAID](https://gisaid.org). To run this script, 11 arguments must be supplied.
 
 ### Usage
 
