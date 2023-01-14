@@ -62,7 +62,7 @@ Rscript buildGISAIDdatabase.R metadataFolder
 
 ### Description
 
-
+Adding Custom Trait Colors.
 
 ### Usage
 
