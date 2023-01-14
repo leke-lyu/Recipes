@@ -53,7 +53,7 @@ Rscript buildGISAIDdatabase.R metadataFolder
 
 ### Description
 
-
+The script modified the meta file downloaded from [GISAID](https://gisaid.org).
 
 ### Usage
 
