@@ -15,7 +15,7 @@ A detailed documentation of my scripts and customized data
       </ul>
     </li>
     <li>
-      <a href="#colorpalettefornextstrainrrrr">colorPaletteForNextStrain.R</a>
+      <a href="#colorpalettefornextstrainr">colorPaletteForNextStrain.R</a>
       <ul>
         <li><a href="#description-1">Description</a></li>
       </ul>
