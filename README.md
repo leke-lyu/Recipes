@@ -15,7 +15,7 @@ A detailed documentation of my scripts and customized data
       </ul>
     </li>
     <li>
-      <a href="#editmetaofnextstrainsamplesr">editMetaOfNextStrainSamples.R</a>
+      <a href="#colorpalettefornextstrainrrrr">colorPaletteForNextStrain.R</a>
       <ul>
         <li><a href="#description-1">Description</a></li>
       </ul>
@@ -24,12 +24,21 @@ A detailed documentation of my scripts and customized data
       </ul>
     </li>
     <li>
-      <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
+      <a href="#editmetaofnextstrainsamplesr">editMetaOfNextStrainSamples.R</a>
       <ul>
         <li><a href="#description-2">Description</a></li>
       </ul>
       <ul>
         <li><a href="#usage-2">Usage</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
+      <ul>
+        <li><a href="#description-3">Description</a></li>
+      </ul>
+      <ul>
+        <li><a href="#usage-3">Usage</a></li>
       </ul>
     </li>
   </ol>
@@ -45,6 +54,20 @@ This script used RSQLite to build a local database indexing the metadata of all 
 
 ```shell
 Rscript buildGISAIDdatabase.R metadataFolder
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## [colorPaletteForNextStrain.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/colorPaletteForNextStrain.R)
+
+### Description
+
+
+
+### Usage
+
+```shell
+Rscript colorPaletteForNextStrain.R pathToNextStrainMeta workingDirectory
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
