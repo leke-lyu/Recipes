@@ -16,6 +16,13 @@ zipCodeTable <- temp %>%
   read.table(., sep="\t")
 unlink(temp)
 names(zipCodeTable) = c("CountryCode", "zip", "PlaceName", "AdminName1", "AdminCode1", "AdminName2", "AdminCode2", "AdminName3", "AdminCode3", "latitude", "longitude", "accuracy")
+#counties <- zipCodeTable %>% dplyr::filter(AdminName1=="Texas") %>% dplyr::select(AdminName2) %>% unique() %>% .[,1]
+#for(i in counties){
+#  latitude <- zipCodeTable %>% dplyr::filter(AdminName1=="Texas" & AdminName2==i) %>% dplyr::select(latitude) %>% .[,1] %>% mean()
+#  longitude <- zipCodeTable %>% dplyr::filter(AdminName1=="Texas" & AdminName2==i) %>% dplyr::select(longitude) %>% .[,1] %>% mean()
+#  line=paste0("location\t",i," county\t",latitude,"\t",longitude)
+#  write(line, file="lat_longs.tsv", append=TRUE)
+#}
 
 # select delta, filter zip code, and add the "county" column
 vendorDeltaMeta <- args[1] %>%
