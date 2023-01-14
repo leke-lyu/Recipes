@@ -26,7 +26,7 @@ rm(zipAndCounty, zipCodeTable, temp)
 
 # edit nextstrainMeta
 nextstrainMeta <- args[2] %>%
-  read.table(., sep = "\t", header = T, fill = T, quote = "", row.names = NULL, stringsAsFactors = FALSE) #(tb$division == tb$division_exposure) %>% table()
+  read.table(., sep = "\t", header = T, fill = T, quote = "", row.names = NULL, stringsAsFactors = FALSE)
 nextstrainMeta[nextstrainMeta$sex!="Male" & nextstrainMeta$sex!="Female", "sex"] <- "Unknown" #add traits like age and race in the future
 for(i in 1:nrow(nextstrainMeta)){
   id <- nextstrainMeta[i, "strain"]
