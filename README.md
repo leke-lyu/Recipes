@@ -100,4 +100,16 @@ Rscript generateNextStrainSamples.R pathToTexas_cumulative.csv pathToMeta.db wor
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## [samplingDateDistribution.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/samplingDateDistribution.R)
 
+### Description
+
+Given a meta table, this script plot the distribution of sampling date.
+
+### Usage
+
+```shell
+Rscript samplingDateDistribution.R pathToMeta workingDirectory limitMin limitMax
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
