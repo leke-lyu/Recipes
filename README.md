@@ -41,6 +41,15 @@ A detailed documentation of my scripts and customized data
         <li><a href="#usage-3">Usage</a></li>
       </ul>
     </li>
+     <li>
+      <a href="#samplingdatedistributionr">samplingDateDistribution.R</a>
+      <ul>
+        <li><a href="#description-4">Description</a></li>
+      </ul>
+      <ul>
+        <li><a href="#usage-4">Usage</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
