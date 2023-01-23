@@ -51,7 +51,7 @@ taxesHealthRegions <- temp %>%
   read.table(., sep="\t", header=T)
 unlink(temp)
 idAndHealthRegions <- merge(idAndCounty, taxesHealthRegions, by.x = 'location', by.y ='County.Name') %>%
-  dplyr::select(tip, Public.Health.Region)
+  dplyr::select(tip, Health.Service.Region)
 
 
 save(vendorDeltaMeta, texasSeqMeta, idAndCounty, idAndHealthRegions, file = paste0(args[3], "/data.RData"))
