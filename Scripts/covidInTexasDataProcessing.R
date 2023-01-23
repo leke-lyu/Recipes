@@ -17,13 +17,6 @@ zipCodeTable <- temp %>%
   read.table(., sep="\t")
 unlink(temp)
 names(zipCodeTable) = c("CountryCode", "zip", "PlaceName", "AdminName1", "AdminCode1", "AdminName2", "AdminCode2", "AdminName3", "AdminCode3", "latitude", "longitude", "accuracy")
-#counties <- zipCodeTable %>% dplyr::filter(AdminName1=="Texas") %>% dplyr::select(AdminName2) %>% unique() %>% .[,1]
-#for(i in counties){
-#  latitude <- zipCodeTable %>% dplyr::filter(AdminName1=="Texas" & AdminName2==i) %>% dplyr::select(latitude) %>% .[,1] %>% mean()
-#  longitude <- zipCodeTable %>% dplyr::filter(AdminName1=="Texas" & AdminName2==i) %>% dplyr::select(longitude) %>% .[,1] %>% mean()
-#  line=paste0("location\t",i," county\t",latitude,"\t",longitude)
-#  write(line, file="lat_longs.tsv", append=TRUE)
-#}
 
 # select delta, filter zip code, and add the "county" column
 vendorDeltaMeta <- args[1] %>%
@@ -46,9 +39,20 @@ args[3] %>%
   paste0(., "/seq.list") %>%
   write.table(texasSeqMeta$Accession_ID, ., sep = ",", append=TRUE, col.names = F, row.names = F, quote = F)
 
-tb <- vendorDeltaMeta %>% 
+idAndCounty <- vendorDeltaMeta %>% 
   dplyr::select(GISAID_name, AdminName2) %>% 
   merge(texasSeqMeta, ., by.x = 'Virus_name', by.y ='GISAID_name') %>%
   dplyr::select(Virus_name, Accession_ID, Collection_date, AdminName2)
-tb <- data.frame(tip=paste(str_replace_all(tb$Virus_name, "/", "_"), tb$Accession_ID, tb$Collection_date, sep="_"), location=tb$AdminName2) 
-save(vendorDeltaMeta, texasSeqMeta, tb, file = paste0(args[3], "/data.RData"))
+idAndCounty <- data.frame(tip=paste(str_replace_all(idAndCounty$Virus_name, "/", "_"), idAndCounty$Accession_ID, idAndCounty$Collection_date, sep="_"), location=idAndCounty$AdminName2) 
+
+temp <- tempfile()
+"https://raw.githubusercontent.com/leke-lyu/Recipes/main/Data/taxesPublicHealthRegions.txt" %>% download.file(., temp)
+taxesHealthRegions <- temp %>%
+  read.table(., sep="\t", header=T)
+unlink(temp)
+idAndHealthRegions <- merge(idAndCounty, taxesHealthRegions, by.x = 'location', by.y ='County.Name') %>%
+  dplyr::select(tip, Public.Health.Region)
+
+
+save(vendorDeltaMeta, texasSeqMeta, idAndCounty, idAndHealthRegions, file = paste0(args[3], "/data.RData"))
+
