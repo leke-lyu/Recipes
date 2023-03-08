@@ -42,16 +42,23 @@ args[3] %>%
 idAndCounty <- vendorDeltaMeta %>% 
   dplyr::select(GISAID_name, AdminName2) %>% 
   merge(texasSeqMeta, ., by.x = 'Virus_name', by.y ='GISAID_name') %>%
-  dplyr::select(Virus_name, Accession_ID, Collection_date, AdminName2)
-idAndCounty <- data.frame(tip=idAndCounty$Accession_ID, location=idAndCounty$AdminName2) 
+  dplyr::select(Accession_ID, AdminName2)
+colnames(idAndCounty) <- c("Accession_ID", "County")
 
 temp <- tempfile()
 "https://raw.githubusercontent.com/leke-lyu/Recipes/main/Data/taxesPublicHealthRegions.txt" %>% download.file(., temp)
 taxesHealthRegions <- temp %>%
   read.table(., sep="\t", header=T)
 unlink(temp)
-idAndHealthRegions <- merge(idAndCounty, taxesHealthRegions, by.x = 'location', by.y ='County.Name') %>%
-  dplyr::select(tip, Health.Service.Region)
+idAndHealthRegions <- merge(idAndCounty, taxesHealthRegions, by.x = 'County', by.y ='County.Name') %>%
+  dplyr::select(Accession_ID, Health.Service.Region)
 
+temp <- tempfile()
+"https://raw.githubusercontent.com/leke-lyu/Recipes/main/Data/MetroAreasInTexas.txt" %>% download.file(., temp)
+taxesMetroAreas <- temp %>%
+  read.table(., sep="\t", header=T)
+unlink(temp)
+idAndMetroAreas <- merge(idAndCounty, taxesMetroAreas, by.x = 'County', by.y ='County.name') %>%
+  dplyr::select(Accession_ID, Metro.area)
 
-save(vendorDeltaMeta, texasSeqMeta, idAndCounty, idAndHealthRegions, file = paste0(args[3], "/data.RData"))
+save(vendorDeltaMeta, texasSeqMeta, idAndCounty, idAndHealthRegions, idAndMetroAreas, file = paste0(args[3], "/data.RData"))
