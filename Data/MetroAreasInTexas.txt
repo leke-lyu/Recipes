@@ -1,0 +1,255 @@
+County name	Population 2020	Metro area
+Dallas	2613539	Dallas-Fort Worth
+Tarrant	2110640	Dallas-Fort Worth
+Collin	1064465	Dallas-Fort Worth
+Denton	906422	Dallas-Fort Worth
+Ellis	192455	Dallas-Fort Worth
+Johnson	179927	Dallas-Fort Worth
+Parker	148222	Dallas-Fort Worth
+Kaufman	145310	Dallas-Fort Worth
+Rockwall	107819	Dallas-Fort Worth
+Hunt	99956	Dallas-Fort Worth
+Wise	68632	Dallas-Fort Worth
+Hood	61598	Dallas-Fort Worth
+Somervell	9205	Dallas-Fort Worth
+Harris	4731145	Houston
+Fort Bend	822779	Houston
+Montgomery	620443	Houston
+Brazoria	372031	Houston
+Galveston	350682	Houston
+Liberty	91628	Houston
+Waller	56794	Houston
+Chambers	46571	Houston
+Austin	30167	Houston
+Bexar	2009324	San Antonio
+Guadalupe	172706	San Antonio
+Comal	161501	San Antonio
+Medina	50748	San Antonio
+Wilson	49753	San Antonio
+Atascosa	48981	San Antonio
+Kendall	44279	San Antonio
+Bandera	20851	San Antonio
+Travis	1290188	Austin
+Williamson	609017	Austin
+Hays	241067	Austin
+Bastrop	97216	Austin
+Caldwell	45883	Austin
+Hidalgo	870781	McAllen
+El Paso	865657	El Paso
+Hudspeth	3202	El Paso
+Bell	370647	Killeen
+Coryell	83093	Killeen
+Lampasas	21627	Killeen
+Nueces	353178	Corpus Christi
+San Patricio	68755	Corpus Christi
+Aransas	23830	Corpus Christi
+Cameron	421017	Brownsville
+Jefferson	256526	Beaumont-Port Arthur
+Orange	84808	Beaumont-Port Arthur
+Hardin	56231	Beaumont-Port Arthur
+Newton	12217	Beaumont-Port Arthur
+Lubbock	310639	Lubbock
+Lynn	5596	Lubbock
+Crosby	5133	Lubbock
+McLennan	260579	Waco
+Falls	16968	Waco
+Randall	140753	Amarillo
+Potter	118525	Amarillo
+Carson	5807	Amarillo
+Armstrong	1848	Amarillo
+Oldham	1758	Amarillo
+Brazos	233849	Bryan-College Station
+Burleson	17642	Bryan-College Station
+Robertson	16757	Bryan-College Station
+Webb	267114	Laredo
+Smith	233479	Tyler
+Gregg	124239	Longview
+Rusk	52214	Longview
+Upshur	40892	Longview
+Taylor	143208	Abilene
+Jones	19663	Abilene
+Callahan	13708	Abilene
+Midland	169983	Midland
+Martin	5237	Midland
+Ector	165171	Odessa
+Wichita	129350	Wichita Falls
+Clay	10218	Wichita Falls
+Archer	8560	Wichita Falls
+Grayson	135543	Sherman
+Tom Green	120003	San Angelo
+Irion	1513	San Angelo
+Victoria	91319	Victoria
+Goliad	7012	Victoria
+Bowie	92893	Texarkana
+Angelina	86395	None
+Henderson	82150	None
+Walker	76400	None
+Harrison	68839	None
+Starr	65920	None
+Nacogdoches	64653	None
+Van Zandt	59541	None
+Anderson	57922	None
+Maverick	57887	None
+Navarro	52624	None
+Kerr	52598	None
+Cherokee	50412	None
+Polk	50123	None
+Lamar	50088	None
+Burnet	49130	None
+Val Verde	47586	None
+Wood	44843	None
+Erath	42545	None
+Cooke	41668	None
+Wharton	41570	None
+Jim Wells	38891	None
+Brown	38095	None
+Hopkins	36787	None
+Matagorda	36255	None
+Hill	35874	None
+Washington	35805	None
+Fannin	35662	None
+Howard	34860	None
+Jasper	32980	None
+Hale	32522	None
+Titus	31247	None
+Bee	31047	None
+Kleberg	31040	None
+Grimes	29268	None
+Cass	28454	None
+Palo Pinto	28409	None
+San Jacinto	27402	None
+Gillespie	26725	None
+Milam	24754	None
+Uvalde	24564	None
+Fayette	24435	None
+Shelby	24022	None
+Panola	22491	None
+Limestone	22146	None
+Houston	22066	None
+Gaines	21598	None
+Hockley	21537	None
+Moore	21358	None
+Llano	21243	None
+Gray	21227	None
+Hutchinson	20617	None
+Colorado	20557	None
+Lavaca	20337	None
+Willacy	20164	None
+Calhoun	20106	None
+Montague	19965	None
+DeWitt	19824	None
+Tyler	19798	None
+Gonzales	19653	None
+Freestone	19435	None
+Andrews	18610	None
+Deaf Smith	18583	None
+Frio	18385	None
+Bosque	18235	None
+Young	17867	None
+Eastland	17725	None
+Lee	17478	None
+Scurry	16932	None
+Leon	15719	None
+Pecos	15193	None
+Jackson	14988	None
+Reeves	14748	None
+Nolan	14738	None
+Karnes	14710	None
+Zapata	13889	None
+Trinity	13602	None
+Comanche	13594	None
+Madison	13455	None
+Lamb	13045	None
+Wilbarger	12887	None
+Camp	12464	None
+Dawson	12456	None
+Rains	12164	None
+Morris	11973	None
+Terry	11831	None
+Ward	11644	None
+Red River	11587	None
+Blanco	11374	None
+Live Oak	11335	None
+Franklin	10359	None
+Ochiltree	10015	None
+Runnels	9900	None
+Sabine	9894	None
+Parmer	9869	None
+Duval	9831	None
+Marion	9725	None
+Zavala	9670	None
+Brewster	9546	None
+Stephens	9101	None
+Mitchell	8990	None
+Dimmit	8615	None
+Jack	8472	None
+Hamilton	8222	None
+San Augustine	7918	None
+Winkler	7791	None
+Yoakum	7694	None
+Coleman	7684	None
+McCulloch	7630	None
+Castro	7371	None
+Dallam	7115	None
+Brooks	7076	None
+Swisher	6971	None
+Bailey	6904	None
+Refugio	6741	None
+Childress	6664	None
+La Salle	6664	None
+Presidio	6131	None
+Garza	5816	None
+San Saba	5730	None
+Haskell	5416	None
+Floyd	5402	None
+Hartley	5382	None
+Hansford	5285	None
+Delta	5230	None
+Wheeler	4990	None
+Jim Hogg	4838	None
+Crane	4675	None
+Mills	4456	None
+Kimble	4286	None
+Mason	3953	None
+Fisher	3672	None
+Hardeman	3549	None
+Baylor	3465	None
+Reagan	3385	None
+Hemphill	3382	None
+Sutton	3372	None
+Knox	3353	None
+Upton	3308	None
+Concho	3303	None
+Coke	3285	None
+Donley	3258	None
+Kinney	3129	None
+Shackelford	3105	None
+Crockett	3098	None
+Lipscomb	3059	None
+Hall	2825	None
+Sherman	2782	None
+Real	2758	None
+Collingsworth	2652	None
+Cochran	2547	None
+Schleicher	2451	None
+Culberson	2188	None
+Jeff Davis	1996	None
+Menard	1962	None
+Dickens	1770	None
+Throckmorton	1440	None
+Briscoe	1435	None
+Edwards	1422	None
+Cottle	1380	None
+Sterling	1372	None
+Stonewall	1245	None
+Glasscock	1116	None
+Foard	1095	None
+Motley	1063	None
+Roberts	827	None
+Terrell	760	None
+Kent	753	None
+Borden	631	None
+McMullen	600	None
+Kenedy	350	None
+King	265	None
+Loving	64	None
