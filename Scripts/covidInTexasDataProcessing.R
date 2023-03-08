@@ -43,7 +43,7 @@ idAndCounty <- vendorDeltaMeta %>%
   dplyr::select(GISAID_name, AdminName2) %>% 
   merge(texasSeqMeta, ., by.x = 'Virus_name', by.y ='GISAID_name') %>%
   dplyr::select(Virus_name, Accession_ID, Collection_date, AdminName2)
-idAndCounty <- data.frame(tip=paste(str_replace_all(idAndCounty$Virus_name, "/", "_"), idAndCounty$Accession_ID, idAndCounty$Collection_date, sep="_"), location=idAndCounty$AdminName2) 
+idAndCounty <- data.frame(tip=idAndCounty$Accession_ID, location=idAndCounty$AdminName2) 
 
 temp <- tempfile()
 "https://raw.githubusercontent.com/leke-lyu/Recipes/main/Data/taxesPublicHealthRegions.txt" %>% download.file(., temp)
@@ -55,4 +55,3 @@ idAndHealthRegions <- merge(idAndCounty, taxesHealthRegions, by.x = 'location', 
 
 
 save(vendorDeltaMeta, texasSeqMeta, idAndCounty, idAndHealthRegions, file = paste0(args[3], "/data.RData"))
-
