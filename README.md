@@ -24,7 +24,7 @@ A detailed documentation of my scripts and customized data
       </ul>
     </li>
     <li>
-      <a href="#editmetaofnextstrainsamplesr">editMetaOfNextStrainSamples.R</a>
+      <a href="#covidintexasdataprocessingr">covidInTexasDataProcessing.R</a>
       <ul>
         <li><a href="#description-2">Description</a></li>
       </ul>
@@ -33,7 +33,7 @@ A detailed documentation of my scripts and customized data
       </ul>
     </li>
     <li>
-      <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
+      <a href="#editmetaofnextstrainsamplesr">editMetaOfNextStrainSamples.R</a>
       <ul>
         <li><a href="#description-3">Description</a></li>
       </ul>
@@ -41,13 +41,22 @@ A detailed documentation of my scripts and customized data
         <li><a href="#usage-3">Usage</a></li>
       </ul>
     </li>
-     <li>
-      <a href="#samplingdatedistributionr">samplingDateDistribution.R</a>
+    <li>
+      <a href="#generatenextstrainsamplesr">generateNextStrainSamples.R</a>
       <ul>
         <li><a href="#description-4">Description</a></li>
       </ul>
       <ul>
         <li><a href="#usage-4">Usage</a></li>
+      </ul>
+    </li>
+     <li>
+      <a href="#samplingdatedistributionr">samplingDateDistribution.R</a>
+      <ul>
+        <li><a href="#description-5">Description</a></li>
+      </ul>
+      <ul>
+        <li><a href="#usage-5">Usage</a></li>
       </ul>
     </li>
   </ol>
@@ -77,6 +86,20 @@ Adding Custom Trait Colors.
 
 ```shell
 Rscript colorPaletteForNextStrain.R pathToNextStrainMeta workingDirectory
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## [covidInTexasDataProcessing.R](https://github.com/leke-lyu/Recipes/blob/main/Scripts/covidInTexasDataProcessing.R)
+
+### Description
+
+Processing HHD meta data.
+
+### Usage
+
+```shell
+Rscript covidInTexasDataProcessing.R pathToTexas_cumulative.csv pathToMeta.db workingDirectory
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
