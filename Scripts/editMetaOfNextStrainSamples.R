@@ -51,4 +51,3 @@ for(i in 1:nrow(nextstrainMeta)){
   }
 }
 args[2] %>% write.table(nextstrainMeta, ., sep="\t", row.names = F, col.names = T, quote=F)
-
