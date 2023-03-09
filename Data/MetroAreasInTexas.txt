@@ -86,28 +86,28 @@ Henderson	82150	None
 Walker	76400	None
 Harrison	68839	None
 Starr	65920	None
-Nacogdoches	64653	None
-Van Zandt	59541	None
-Anderson	57922	None
-Maverick	57887	None
-Navarro	52624	None
-Kerr	52598	None
-Cherokee	50412	None
-Polk	50123	None
-Lamar	50088	None
-Burnet	49130	None
-Val Verde	47586	None
-Wood	44843	None
-Erath	42545	None
-Cooke	41668	None
-Wharton	41570	None
-Jim Wells	38891	None
-Brown	38095	None
-Hopkins	36787	None
-Matagorda	36255	None
-Hill	35874	None
-Washington	35805	None
-Fannin	35662	None
+Nacogdoches	64653 rural
+Van Zandt	59541	rural
+Anderson	57922	rural
+Maverick	57887	rural
+Navarro	52624	rural
+Kerr	52598	rural
+Cherokee	50412	rural
+Polk	50123	rural
+Lamar	50088	rural
+Burnet	49130	rural
+Val Verde	47586	rural
+Wood	44843	rural
+Erath	42545	rural
+Cooke	41668	rural
+Wharton	41570	rural
+Jim Wells	38891	rural
+Brown	38095	rural
+Hopkins	36787	rural
+Matagorda	36255	rural
+Hill	35874	rural
+Washington	35805	rural
+Fannin	35662	rural
 Howard	34860	None
 Jasper	32980	None
 Hale	32522	None
