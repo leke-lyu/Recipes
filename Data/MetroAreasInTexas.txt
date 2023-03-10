@@ -86,7 +86,7 @@ Henderson	82150	rural
 Walker	76400	rural
 Harrison	68839	rural
 Starr	65920	rural
-Nacogdoches	64653 rural
+Nacogdoches	64653	rural
 Van Zandt	59541	rural
 Anderson	57922	rural
 Maverick	57887	rural
