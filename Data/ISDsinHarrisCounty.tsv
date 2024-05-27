@@ -93,11 +93,11 @@ zip	ISD	label
 77096	Houston Independent School District	
 77098	Houston Independent School District	
 77099	Alief Independent School District	
-77218	Katy Independent School District	*
-77228	Houston Independent School District	*
-77269	Cypress-Fairbanks Independent School District	*
-77270	Houston Independent School District	*
-77292	Houston Independent School District	*
+77218	Katy Independent School District	
+77228	Houston Independent School District	
+77269	Cypress-Fairbanks Independent School District	
+77270	Houston Independent School District	
+77292	Houston Independent School District	
 77336	Huffman Independent School District	
 77338	Humble Independent School District	*
 77339	Humble Independent School District	
@@ -107,7 +107,7 @@ zip	ISD	label
 77375	Tomball Independent School District	*
 77377	Tomball Independent School District	
 77379	Klein Independent School District	
-77383	Spring Independent School District	*
+77383	Spring Independent School District	
 77388	Klein Independent School District	
 77389	Klein Independent School District	
 77396	Humble Independent School District	
@@ -124,7 +124,7 @@ zip	ISD	label
 77505	Pasadena Independent School District	*
 77506	Pasadena Independent School District	
 77507	La Porte Independent School District	
-77508	Pasadena Independent School District	*
+77508	Pasadena Independent School District	
 77520	Goose Creek Consolidated Independent School District	
 77521	Goose Creek Consolidated Independent School District	
 77530	Channelview Independent School District	
@@ -133,7 +133,7 @@ zip	ISD	label
 77547	Galena Park Independent School District	
 77562	Goose Creek Consolidated Independent School District	
 77571	La Porte Independent School District	
-77572	La Porte Independent School District	*
+77572	La Porte Independent School District	
 77586	Clear Creek Independent School District	
 77587	Pasadena Independent School District	
 77598	Clear Creek Independent School District	
